@@ -10,7 +10,7 @@ license=('BSD')
 depends=('mingw-w64-lapack')
 makedepends=('mingw-w64-cmake')
 options=('!buildflags' 'staticlibs' '!strip')
-source=("http://computation.llnl.gov/projects/sundials/download/sundials-${pkgver}.tar.gz")
+source=("https://github.com/LLNL/sundials/releases/download/v${pkgver}/sundials-${pkgver}.tar.gz")
 sha256sums=('88dff7e11a366853d8afd5de05bf197a8129a804d9d4461fb64297f1ef89bca7')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
